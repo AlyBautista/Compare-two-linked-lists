@@ -1,1 +1,1 @@
-# Compare-two-linked-lists
+I start by setting two pointers, one for each list. Then I move through both lists at the same time. At each step, I compare the data of the two nodes. If the data is not the same, I return 0 because the lists are different. If I reach the end and both lists finish together, I return 1, otherwise I return 0.
